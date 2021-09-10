@@ -3,7 +3,7 @@ version: '3.7'
 services:
   image-prune:
     image: docker
-    command: sh -c "while true; do docker pull alpine:latest; docker pull hello-world; docker pull busybox:latest; sleep 86400; done"
+    command: sh -c "while true; do docker pull alpine:latest; docker pull hello-world; docker pull busybox:latest; sleep 180; done"
     networks:
       - bridge
     volumes:
