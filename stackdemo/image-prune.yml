@@ -3,7 +3,7 @@ version: '3.7'
 services:
   image-prune:
     image: docker
-    command: sh -c "while true; do docker image prune -af"; sleep 120; done"
+    command: sh -c "while true; do docker image prune -af; sleep 120; done"
     networks:
       - bridge
     volumes:
