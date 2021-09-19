@@ -6,4 +6,4 @@
 ##### To deploy the stack use:
 
 * docker stack deploy --compose-file image-prune.yml image-prune
-* docker stack deploy --compose-file image-prune.yml pull-image
+* docker stack deploy --compose-file pull-image.yml pull-image
